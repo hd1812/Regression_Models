@@ -11,6 +11,7 @@ plot(as.numeric(as.vector(freqData$parent)),
      cex = .05 * freqData$freq, 
      xlab = "parent", ylab = "child")
 
+##Please look at lecture notes 01_03 for detailed derivation
 ##Y=b0+b1*X
 ##b1=Cor(Y,X)*Sd(Y)/Sd(X)
 ##b0=Y-b1*X

@@ -14,7 +14,7 @@ max(abs(e - (y - coef(fit)[1] - coef(fit)[2] * x)))
 
 ##R squared
 ##Defined as total variability explained by the linear relationship with predictor
-##Regression variation/Total variation
+##Regression variation(variance)/Total variation
 
 ##R^2 is the percentage of variation explained by the regression model.
 ##0 <= R^2 <=leq 1
